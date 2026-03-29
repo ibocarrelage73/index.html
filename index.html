@@ -1,57 +1,78 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>İbo Carrelage | Profesyonel Seramik ve Fayans</title>
+    <title>IBO CARRELAGE | Artisan Carreleur Professionnel</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
     <style>
-        body { font-family: 'Inter', sans-serif; background-color: #0f172a; color: white; }
-        .hero-gradient { background: linear-gradient(rgba(15, 23, 42, 0.7), rgba(15, 23, 42, 0.9)), url('https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=2070') center/cover; }
+        body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: #050505; color: #ffffff; scroll-behavior: smooth; }
+        .glass { background: rgba(255, 255, 255, 0.03); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); }
+        .hero-bg { background: linear-gradient(to bottom, rgba(0,0,0,0.4), #050505), url('https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?q=80&w=2000') center/cover; }
+        .gold-text { background: linear-gradient(45deg, #d4af37, #f4cf6d); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
     </style>
 </head>
 <body>
-    <nav class="flex justify-between items-center p-6 max-w-7xl mx-auto">
-        <div class="text-2xl font-bold tracking-tighter text-yellow-500">İBO CARRELAGE</div>
-        <div class="space-x-6 hidden md:block">
-            <a href="#hizmetler" class="hover:text-yellow-500 transition">Hizmetler</a>
-            <a href="#galeri" class="hover:text-yellow-500 transition">Galeri</a>
-            <a href="https://wa.me/330760501110" class="bg-yellow-500 text-black px-4 py-2 rounded font-bold">Teklif Al</a>
+
+    <nav class="fixed w-full z-50 glass px-6 py-4 flex justify-between items-center">
+        <div class="text-xl font-extrabold tracking-tighter">IBO <span class="text-yellow-500">CARRELAGE</span></div>
+        <div class="hidden md:flex gap-8 text-sm font-medium uppercase tracking-widest">
+            <a href="#services" class="hover:text-yellow-500 transition">Services</a>
+            <a href="#projets" class="hover:text-yellow-500 transition">Projets</a>
+            <a href="#contact" class="hover:text-yellow-500 transition">Contact</a>
         </div>
+        <a href="tel:+33600000000" class="bg-yellow-500 text-black px-5 py-2 rounded-full font-bold text-sm uppercase">Appeler</a>
     </nav>
 
-    <section class="hero-gradient h-[80vh] flex flex-col justify-center items-center text-center px-4">
-        <h1 class="text-5xl md:text-7xl font-extrabold mb-6">Kusursuz İşçilik, Modern Mekanlar</h1>
-        <p class="text-xl text-gray-300 max-w-2xl mb-8">Fransa genelinde profesyonel seramik, fayans ve zemin kaplama çözümleri sunuyoruz.</p>
+    <section class="hero-bg h-screen flex flex-col justify-center items-center text-center px-4">
+        <h1 class="text-6xl md:text-8xl font-extrabold mb-6 tracking-tighter">L'ART DU <br><span class="gold-text">CARRELAGE</span></h1>
+        <p class="text-gray-400 text-lg md:text-xl max-w-2xl mb-10 leading-relaxed">Artisan spécialisé dans la pose de carrelage, faïence et rénovation complète de salles de bain en France.</p>
         <div class="flex gap-4">
-            <a href="#galeri" class="border border-white px-8 py-3 rounded-full hover:bg-white hover:text-black transition">İşlerimize Bakın</a>
+            <a href="#projets" class="bg-white text-black px-10 py-4 rounded-full font-bold hover:scale-105 transition">Mes Travaux</a>
+            <a href="https://wa.me/33600000000" class="glass px-10 py-4 rounded-full font-bold hover:bg-white hover:text-black transition">Devis Gratuit</a>
         </div>
     </section>
 
-    <section id="hizmetler" class="py-20 px-6 max-w-7xl mx-auto">
-        <h2 class="text-3xl font-bold mb-12 text-center">Hizmetlerimiz</h2>
-        <div class="grid md:grid-cols-3 gap-8">
-            <div class="bg-slate-800 p-8 rounded-2xl border border-slate-700">
-                <div class="text-yellow-500 mb-4 text-3xl">🏠</div>
-                <h3 class="text-xl font-bold mb-2">İç Mekan Kaplama</h3>
-                <p class="text-gray-400">Banyo, mutfak ve salonlarınız için en şık seramik çözümleri.</p>
+    <section id="services" class="py-24 px-6 max-w-7xl mx-auto">
+        <h2 class="text-3xl font-bold mb-16 text-center uppercase tracking-[0.2em]">Nos Services</h2>
+        <div class="grid md:grid-cols-3 gap-6">
+            <div class="glass p-10 rounded-[2rem] hover:border-yellow-500/50 transition group">
+                <div class="text-4xl mb-6 group-hover:scale-110 transition inline-block">📐</div>
+                <h3 class="text-xl font-bold mb-4 italic">Pose de Carrelage</h3>
+                <p class="text-gray-500">Pose millimétrée de grands formats, pierres naturelles et mosaïques pour tous vos espaces.</p>
             </div>
-            <div class="bg-slate-800 p-8 rounded-2xl border border-slate-700">
-                <div class="text-yellow-500 mb-4 text-3xl">📐</div>
-                <h3 class="text-xl font-bold mb-2">Hassas Ölçüm</h3>
-                <p class="text-gray-400">Milimetrik hesaplamalarla hatasız ve estetik uygulama.</p>
+            <div class="glass p-10 rounded-[2rem] hover:border-yellow-500/50 transition group">
+                <div class="text-4xl mb-6 group-hover:scale-110 transition inline-block">🚿</div>
+                <h3 class="text-xl font-bold mb-4 italic">Salle de Bain</h3>
+                <p class="text-gray-500">Conception complète de douches à l'italienne et étanchéité garantie pour vos pièces d'eau.</p>
             </div>
-            <div class="bg-slate-800 p-8 rounded-2xl border border-slate-700">
-                <div class="text-yellow-500 mb-4 text-3xl">🏗️</div>
-                <h3 class="text-xl font-bold mb-2">Dış Cephe & Teras</h3>
-                <p class="text-gray-400">Hava koşullarına dayanıklı, uzun ömürlü dış zeminler.</p>
+            <div class="glass p-10 rounded-[2rem] hover:border-yellow-500/50 transition group">
+                <div class="text-4xl mb-6 group-hover:scale-110 transition inline-block">🧱</div>
+                <h3 class="text-xl font-bold mb-4 italic">Rénovation</h3>
+                <p class="text-gray-400">Remise à neuf de vos anciens sols et murs avec des finitions haut de gamme.</p>
             </div>
         </div>
     </section>
 
-    <footer class="py-10 border-t border-slate-800 text-center text-gray-500">
-        <p>&copy; 2026 İbo Carrelage. Tüm hakları saklıdır.</p>
+    <section id="projets" class="py-24 bg-[#0a0a0a]">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-3xl font-bold mb-16 text-center uppercase tracking-[0.2em]">Réalisations</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <img src="https://images.unsplash.com/photo-1523413555809-0fb1d4da238d?q=80&w=800" class="w-full h-80 object-cover rounded-3xl border border-white/5 shadow-2xl" alt="Projet 1">
+                <img src="https://images.unsplash.com/photo-1600566752355-35792bedcfea?q=80&w=800" class="w-full h-80 object-cover rounded-3xl border border-white/5 shadow-2xl" alt="Projet 2">
+                <img src="https://images.unsplash.com/photo-1584622781564-1d9876a13d00?q=80&w=800" class="w-full h-80 object-cover rounded-3xl border border-white/5 shadow-2xl" alt="Projet 3">
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="py-20 text-center border-t border-white/5">
+        <h2 class="text-4xl font-extrabold mb-8">Prêt pour votre projet ?</h2>
+        <a href="https://wa.me/33600000000" class="inline-block bg-yellow-500 text-black px-12 py-5 rounded-full font-black text-xl hover:shadow-[0_0_30px_rgba(234,179,8,0.4)] transition uppercase tracking-tighter">Contactez-moi sur WhatsApp</a>
+        <div class="mt-16 text-gray-600 text-sm italic">
+            &copy; 2026 IBO CARRELAGE - Tous droits réservés.
+        </div>
     </footer>
+
 </body>
 </html>
