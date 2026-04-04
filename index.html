@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -62,37 +63,6 @@
         .hero-overlay { background: linear-gradient(180deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.3) 100%); }
         .hover-card { transition: all 0.3s ease; }
         .hover-card:hover { transform: translateY(-8px); box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04); }
-    </style>
-</head>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IBO Carrelage | Artisan Carreleur à Chambéry</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        brand: {
-                            red: '#E03C31',
-                            dark: '#111111',
-                            gray: '#F9FAFB',
-                            border: '#E5E7EB'
-                        }
-                    },
-                    fontFamily: { sans: ['Inter', 'sans-serif'] }
-                }
-            }
-        }
-    </script>
-    <style>
-        html { scroll-behavior: smooth; }
-        body { font-family: 'Inter', sans-serif; }
-        .hero-overlay { background: linear-gradient(180deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.3) 100%); }
-        .hover-card { transition: all 0.3s ease; }
-        .hover-card:hover { transform: translateY(-8px); box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04); }
         .image-zoom { overflow: hidden; }
         .image-zoom img { transition: transform 0.5s ease; }
         .image-zoom:hover img { transform: scale(1.05); }
@@ -139,9 +109,14 @@
                 <a href="#contact" class="bg-brand-red text-white px-8 py-4 rounded-xl font-bold text-center hover:bg-red-700 transition shadow-xl shadow-red-500/30">
                     Demander un Devis
                 </a>
-                  <header class="relative h-screen flex items-center justify-center overflow-hidden">
+            </div>
+        </div>
+    </section>
+
+    <header class="relative h-screen flex items-center justify-center overflow-hidden">
         <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?q=80&w=1600&auto=format&fit=crop" class="absolute w-full h-full object-cover z-0" alt="Carrelage de luxe">
-        <div class="absolute inset-0 bg-black/50 z-10"></div> <div class="relative z-20 text-center px-6">
+        <div class="absolute inset-0 bg-black/50 z-10"></div> 
+        <div class="relative z-20 text-center px-6">
             <h1 class="text-4xl md:text-6xl font-black text-white mb-6 uppercase tracking-tighter">IBO CARRELAGE</h1>
             <p class="text-xl text-gray-200 mb-10 max-w-2xl mx-auto font-light">Artisan Carreleur à Chambéry : Excellence, Précision et Finition de Prestige.</p>
             
@@ -149,11 +124,6 @@
                 <a href="#contact" class="bg-brand-red text-white px-10 py-4 rounded-full font-bold hover:scale-105 transition shadow-lg">
                     Demander un Devis
                 </a>
-               
-                
-                
-                
-                
                 <a href="#realisations" class="bg-white/20 backdrop-blur-md text-white border border-white/30 px-10 py-4 rounded-full font-bold hover:bg-white/30 transition">
                     Nos Réalisations
                 </a>
@@ -190,17 +160,11 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
 
-
-            
-            
-            
             <div class="text-center mt-20">
                 <a href="#" class="inline-block border-2 border-brand-red text-brand-red font-bold px-10 py-4 rounded-full hover:bg-brand-red hover:text-white transition shadow-lg hover:shadow-red-500/20">
                     Découvrir plus de projets d'excellence →
-                
+                </a>
             </div>
             
             <div class="text-center mt-16">
@@ -210,12 +174,6 @@
             </div>
         </div>
     </section>
-
-                </a>
-            </div>
-        </div>
-    </section>
-    
 
     <section id="apropos" class="py-24 bg-white">
         <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center">
@@ -304,18 +262,12 @@
                         </div>
                         <div class="text-xs font-bold text-brand-red uppercase">Construction neuve</div>
                     </div>
-        <div class="grid md:grid-cols-3 gap-8">
-        
                 </div>
             </div>
         </div>
     </section>
 
-    </footer>
-
-</body>
-</html>
- <section id="contact" class="py-24 bg-white relative">
+    <section id="contact" class="py-24 bg-white relative">
         <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-16 items-start">
             
             <div>
@@ -390,7 +342,8 @@
             </a>
         </div>
     </section>
- <footer class="bg-brand-dark pt-20 pb-10 text-white">
+
+    <footer class="bg-brand-dark pt-20 pb-10 text-white">
         <div class="max-w-7xl mx-auto px-6">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-16">
                 
@@ -456,5 +409,5 @@
         </div>
     </footer>
 
-
-    
+</body>
+</html>
