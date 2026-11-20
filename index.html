@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EURL IBO CARRELAGE | Carrelage &amp; Chape Liquide — Savoie (150 km Chambéry)</title>
-    <meta name="description" content="EURL IBO CARRELAGE en Savoie. Experts en carrelage, chape liquide, mousse projetée, faïence, dalle sur plots (terrasse), douche italienne et coupes à 45° avec finition soignée. Rayon de 150 km autour de Chambéry. 10+ ans d'expérience, garantie décennale, 48 avis 5/5.">
+    <meta name="description" content="EURL IBO CARRELAGE en Savoie. Experts en carrelage, chape liquide, mousse projetée, faïence, dalle sur plots (terrasse), douche italienne et coupes à 45°. Rayon de 150 km autour de Chambéry. 1500+ projets réalisés, 10+ ans d'expérience, garantie décennale, 48 avis 5/5.">
     <meta name="keywords" content="EURL IBO CARRELAGE, carrelage chape liquide Savoie, carreleur Chambéry, 150 km Chambéry, mousse projetée, faïence, dalle sur plots terrasse, douche italienne, coupe à 45 degrés, création de niche, garantie décennale, artisans Savoie">
     <link rel="canonical" href="https://www.ibocarrelage.com/">
 
@@ -45,7 +45,7 @@
         "ratingValue": "5.0",
         "reviewCount": "48"
       },
-      "description": "EURL IBO CARRELAGE, référence du carrelage et de la chape liquide en Savoie. Prestations haut de gamme : faïence, dalle sur plots (terrasse), douche italienne, coupes à 45° et niches sur mesure dans un rayon de 150 km autour de Chambéry."
+      "description": "EURL IBO CARRELAGE, référence du carrelage et de la chape liquide en Savoie. Plus de 1500 projets réalisés. Prestations haut de gamme : faïence, dalle sur plots (terrasse), douche italienne, coupes à 45° et niches sur mesure dans un rayon de 150 km autour de Chambéry."
     }
     </script>
 
@@ -66,6 +66,45 @@
     <style>
         html { scroll-behavior: smooth; }
         body { font-family: 'Inter', sans-serif; }
+
+        /* Animation des lignes de rayonnement depuis Chambéry */
+        .route-line {
+            stroke-dasharray: 6 6;
+            animation: dashFlow 24s linear infinite;
+        }
+        @keyframes dashFlow {
+            to {
+                stroke-dashoffset: -240;
+            }
+        }
+
+        /* Pulsation du point central Chambéry */
+        .pulse-ring {
+            transform-origin: center;
+            transform-box: fill-box;
+            animation: pulseWave 2.6s ease-out infinite;
+        }
+        @keyframes pulseWave {
+            0% {
+                transform: scale(0.7);
+                opacity: 0.9;
+            }
+            100% {
+                transform: scale(2.8);
+                opacity: 0;
+            }
+        }
+
+        /* Scintillement des étoiles sur les massifs */
+        .star-twinkle {
+            transform-origin: center;
+            transform-box: fill-box;
+            animation: twinkle 3s ease-in-out infinite alternate;
+        }
+        @keyframes twinkle {
+            0% { opacity: 0.55; transform: scale(0.85); }
+            100% { opacity: 1; transform: scale(1.2); }
+        }
     </style>
 </head>
 <body class="bg-white text-brand-dark antialiased">
@@ -78,8 +117,9 @@
             <div class="hidden md:flex gap-8 text-xs font-bold text-gray-700 uppercase tracking-wider">
                 <a href="#" class="text-brand-red">ACCUEIL</a>
                 <a href="#prestations" class="hover:text-brand-red transition">PRESTATIONS</a>
+                <a href="#zone" class="hover:text-brand-red transition">ZONE D'ACTION</a>
                 <a href="#realisations" class="hover:text-brand-red transition">RÉALISATIONS</a>
-                <a href="#expert" class="hover:text-brand-red transition">NOTRE EXPERTISE</a>
+                <a href="#expert" class="hover:text-brand-red transition">EXPERTISE</a>
                 <a href="#avis" class="hover:text-brand-red transition">AVIS CLIENTS</a>
                 <a href="#contact" class="hover:text-brand-red transition">CONTACT</a>
             </div>
@@ -93,7 +133,6 @@
     <section class="relative pt-40 pb-28 bg-[#0D0D0D] text-white overflow-hidden">
         <div class="max-w-7xl mx-auto px-6 relative z-10">
             <div class="inline-flex items-center gap-3 px-4 py-2 rounded-full bg-white/10 border border-white/20 text-xs font-bold uppercase tracking-widest text-white mb-8">
-                <!-- Drapeau de Savoie -->
                 <svg class="w-5 h-3.5 rounded-[2px] flex-shrink-0" viewBox="0 0 30 20" aria-label="Drapeau de Savoie">
                     <rect width="30" height="20" fill="#E03C31"/>
                     <rect x="12.5" width="5" height="20" fill="#FFFFFF"/>
@@ -111,21 +150,21 @@
             </p>
 
             <p class="text-lg text-gray-400 max-w-3xl mb-12 leading-relaxed">
-                Depuis de nombreuses années au cœur des Alpes, nous réalisons vos projets de revêtements de sols, chapes fluides, douches à l'italienne et terrasses avec une exigence constante de rigueur et de durabilité.
+                Avec plus de 1 500 projets réalisés et 50 chantiers en cours à travers les massifs alpins, nous mettons notre savoir-faire au service de vos revêtements de sols, douches à l'italienne et terrasses.
             </p>
 
             <div class="flex flex-wrap gap-4 text-sm font-bold mb-14">
                 <div class="flex items-center gap-2.5 bg-white/5 border border-white/15 px-5 py-3 rounded-xl">
                     <span class="w-2 h-2 rounded-full bg-brand-red"></span>
-                    <span>10+ ANS D’EXPÉRIENCE</span>
+                    <span>1 500+ PROJETS RÉALISÉS</span>
+                </div>
+                <div class="flex items-center gap-2.5 bg-white/5 border border-white/15 px-5 py-3 rounded-xl">
+                    <span class="w-2 h-2 rounded-full bg-yellow-400"></span>
+                    <span>50+ CHANTIERS EN COURS</span>
                 </div>
                 <div class="flex items-center gap-2.5 bg-white/5 border border-white/15 px-5 py-3 rounded-xl text-green-400">
                     <svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
                     <span>GARANTIE DÉCENNALE ACTIVE</span>
-                </div>
-                <div class="flex items-center gap-2.5 bg-white/5 border border-white/15 px-5 py-3 rounded-xl">
-                    <span class="w-2 h-2 rounded-full bg-white"></span>
-                    <span>SAVOIE &amp; 150 KM AUTOUR DE CHAMBÉRY</span>
                 </div>
             </div>
 
@@ -220,6 +259,187 @@
         </div>
     </section>
 
+    <!-- CARTE INTERACTIVE DE RAYONNEMENT DEPUIS CHAMBÉRY -->
+    <section id="zone" class="py-24 bg-[#0D0D0D] text-white border-t border-gray-900">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid lg:grid-cols-12 gap-12 items-center">
+                <div class="lg:col-span-5">
+                    <span class="text-brand-red font-bold text-xs uppercase tracking-widest px-3 py-1 bg-white/10 rounded-full border border-white/15 inline-block mb-4">RAYON DE 150 KM AUTOUR DE CHAMBÉRY</span>
+                    <h2 class="text-3xl md:text-5xl font-black tracking-tight mb-6 leading-tight">
+                        Nos interventions au cœur des massifs alpins
+                    </h2>
+                    <p class="text-gray-400 leading-relaxed text-sm mb-8">
+                        Basés à <strong class="text-white">Chambéry (73)</strong>, nous déployons nos équipes sur l'ensemble des vallées, lacs et stations d'altitude de Savoie, Haute-Savoie et Isère. Chaque étoile sur la carte marque nos secteurs d'intervention réguliers.
+                    </p>
+
+                    <div class="space-y-4 text-xs">
+                        <div class="p-4 rounded-2xl bg-white/5 border border-white/10 flex items-start gap-3">
+                            <span class="w-2.5 h-2.5 rounded-full bg-brand-red mt-1 flex-shrink-0"></span>
+                            <div>
+                                <div class="font-bold text-white text-sm mb-0.5">Tarentaise &amp; Vanoise</div>
+                                <div class="text-gray-400">Courchevel, Méribel, Val Thorens, Tignes, Val d'Isère, Les Arcs, La Plagne, La Rosière</div>
+                            </div>
+                        </div>
+                        <div class="p-4 rounded-2xl bg-white/5 border border-white/10 flex items-start gap-3">
+                            <span class="w-2.5 h-2.5 rounded-full bg-yellow-400 mt-1 flex-shrink-0"></span>
+                            <div>
+                                <div class="font-bold text-white text-sm mb-0.5">Mont-Blanc, Aravis &amp; Lacs</div>
+                                <div class="text-gray-400">Annecy, Aix-les-Bains, Megève, Avoriaz, Flaine, Albertville, Massif des Bauges</div>
+                            </div>
+                        </div>
+                        <div class="p-4 rounded-2xl bg-white/5 border border-white/10 flex items-start gap-3">
+                            <span class="w-2.5 h-2.5 rounded-full bg-white mt-1 flex-shrink-0"></span>
+                            <div>
+                                <div class="font-bold text-white text-sm mb-0.5">Maurienne, Belledonne &amp; Écrins</div>
+                                <div class="text-gray-400">Valloire, Alpe d'Huez, Les Deux Alpes, Chartreuse, Yenne, Avant-Pays Savoyard</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-7">
+                    <div class="relative rounded-3xl bg-[#141414] border border-white/15 p-4 sm:p-6 shadow-2xl overflow-hidden">
+                        <div class="flex items-center justify-between text-[11px] font-bold uppercase tracking-widest text-gray-400 mb-3 px-2">
+                            <span class="flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-brand-red"></span> Base : Chambéry (73000)</span>
+                            <span class="text-yellow-400">★ Destinations &amp; Massifs</span>
+                        </div>
+
+                        <svg viewBox="0 0 800 540" class="w-full h-auto rounded-2xl bg-[#0B0D10] border border-white/10" role="img" aria-label="Carte des interventions EURL IBO CARRELAGE depuis Chambéry vers les massifs et stations de Savoie">
+                            <defs>
+                                <radialGradient id="radarGlow" cx="38%" cy="56%" r="55%">
+                                    <stop offset="0%" stop-color="#E03C31" stop-opacity="0.24"/>
+                                    <stop offset="60%" stop-color="#E03C31" stop-opacity="0.06"/>
+                                    <stop offset="100%" stop-color="#0B0D10" stop-opacity="0"/>
+                                </radialGradient>
+                                <filter id="starGlow" x="-50%" y="-50%" width="200%" height="200%">
+                                    <feGaussianBlur stdDeviation="2.5" result="blur"/>
+                                    <feMerge>
+                                        <feMergeNode in="blur"/>
+                                        <feMergeNode in="SourceGraphic"/>
+                                    </feMerge>
+                                </filter>
+                                <!-- Définition des trajectoires depuis Chambéry (305, 305) -->
+                                <path id="path-annecy" d="M 305 305 Q 320 230 355 165"/>
+                                <path id="path-montblanc" d="M 305 305 Q 430 220 565 135"/>
+                                <path id="path-tarentaise" d="M 305 305 Q 465 300 635 315"/>
+                                <path id="path-valloire" d="M 305 305 Q 430 375 545 435"/>
+                                <path id="path-ecrins" d="M 305 305 Q 360 400 415 475"/>
+                                <path id="path-avantpays" d="M 305 305 Q 230 275 165 245"/>
+                            </defs>
+
+                            <!-- Fond radar -->
+                            <rect width="800" height="540" fill="url(#radarGlow)"/>
+
+                            <!-- Reliefs topographiques stylisés des Alpes -->
+                            <path d="M 60 440 L 170 280 L 250 340 L 370 160 L 465 250 L 580 100 L 730 320 L 760 490 L 40 490 Z" fill="#13171D" stroke="#1F2630" stroke-width="1.5"/>
+                            <path d="M 220 490 L 340 290 L 440 360 L 560 210 L 690 360 L 750 490 Z" fill="#171C24" stroke="#242C38" stroke-width="1.2"/>
+
+                            <!-- Cercles de portée (50 km, 100 km, 150 km) centrés sur Chambéry -->
+                            <circle cx="305" cy="305" r="95" fill="none" stroke="#FFFFFF" stroke-opacity="0.08" stroke-dasharray="3 5"/>
+                            <circle cx="305" cy="305" r="195" fill="none" stroke="#FFFFFF" stroke-opacity="0.08" stroke-dasharray="3 5"/>
+                            <circle cx="305" cy="305" r="300" fill="none" stroke="#E03C31" stroke-opacity="0.28" stroke-width="1.5" stroke-dasharray="5 5"/>
+                            <text x="580" y="210" fill="#E03C31" font-size="10" font-weight="700" opacity="0.8">RAYON 150 KM</text>
+
+                            <!-- Trajectoires animées depuis Chambéry -->
+                            <use href="#path-annecy" fill="none" stroke="#E03C31" stroke-width="2" class="route-line"/>
+                            <use href="#path-montblanc" fill="none" stroke="#E03C31" stroke-width="2" class="route-line"/>
+                            <use href="#path-tarentaise" fill="none" stroke="#E03C31" stroke-width="2.2" class="route-line"/>
+                            <use href="#path-valloire" fill="none" stroke="#E03C31" stroke-width="2" class="route-line"/>
+                            <use href="#path-ecrins" fill="none" stroke="#E03C31" stroke-width="2" class="route-line"/>
+                            <use href="#path-avantpays" fill="none" stroke="#E03C31" stroke-width="1.8" class="route-line"/>
+
+                            <!-- Étoiles filantes qui glissent de Chambéry vers les massifs -->
+                            <g filter="url(#starGlow)">
+                                <polygon points="0,-6 1.8,-1.8 6,0 1.8,1.8 0,6 -1.8,1.8 -6,0 -1.8,-1.8" fill="#FACC15">
+                                    <animateMotion dur="3.4s" repeatCount="indefinite">
+                                        <mpath href="#path-tarentaise"/>
+                                    </animateMotion>
+                                </polygon>
+                                <polygon points="0,-5.5 1.6,-1.6 5.5,0 1.6,1.6 0,5.5 -1.6,1.6 -5.5,0 -1.6,-1.6" fill="#FACC15">
+                                    <animateMotion dur="4.1s" begin="0.8s" repeatCount="indefinite">
+                                        <mpath href="#path-montblanc"/>
+                                    </animateMotion>
+                                </polygon>
+                                <polygon points="0,-5 1.5,-1.5 5,0 1.5,1.5 0,5 -1.5,1.5 -5,0 -1.5,-1.5" fill="#FACC15">
+                                    <animateMotion dur="3.1s" begin="1.4s" repeatCount="indefinite">
+                                        <mpath href="#path-annecy"/>
+                                    </animateMotion>
+                                </polygon>
+                                <polygon points="0,-5 1.5,-1.5 5,0 1.5,1.5 0,5 -1.5,1.5 -5,0 -1.5,-1.5" fill="#FACC15">
+                                    <animateMotion dur="3.7s" begin="2s" repeatCount="indefinite">
+                                        <mpath href="#path-valloire"/>
+                                    </animateMotion>
+                                </polygon>
+                                <polygon points="0,-5 1.5,-1.5 5,0 1.5,1.5 0,5 -1.5,1.5 -5,0 -1.5,-1.5" fill="#FACC15">
+                                    <animateMotion dur="3.9s" begin="0.4s" repeatCount="indefinite">
+                                        <mpath href="#path-ecrins"/>
+                                    </animateMotion>
+                                </polygon>
+                                <polygon points="0,-4.5 1.4,-1.4 4.5,0 1.4,1.4 0,4.5 -1.4,1.4 -4.5,0 -1.4,-1.4" fill="#FACC15">
+                                    <animateMotion dur="2.9s" begin="1.1s" repeatCount="indefinite">
+                                        <mpath href="#path-avantpays"/>
+                                    </animateMotion>
+                                </polygon>
+                            </g>
+
+                            <!-- Étoiles fixes sur chaque massif / destination -->
+                            <!-- Avant-Pays / Yenne / Aix-les-Bains -->
+                            <g transform="translate(165, 245)">
+                                <polygon points="0,-7 2,-2 7,0 2,2 0,7 -2,2 -7,0 -2,-2" fill="#FACC15" class="star-twinkle"/>
+                                <text x="-15" y="-12" fill="#E5E7EB" font-size="11" font-weight="700" text-anchor="end">Yenne • Dent du Chat</text>
+                            </g>
+                            <g transform="translate(275, 235)">
+                                <polygon points="0,-6 1.8,-1.8 6,0 1.8,1.8 0,6 -1.8,1.8 -6,0 -1.8,-1.8" fill="#FACC15" class="star-twinkle"/>
+                                <text x="-12" y="4" fill="#E5E7EB" font-size="11" font-weight="700" text-anchor="end">Aix-les-Bains</text>
+                            </g>
+
+                            <!-- Annecy & Aravis -->
+                            <g transform="translate(355, 165)">
+                                <polygon points="0,-7 2,-2 7,0 2,2 0,7 -2,2 -7,0 -2,-2" fill="#FACC15" class="star-twinkle"/>
+                                <text x="0" y="-13" fill="#FFFFFF" font-size="11" font-weight="700" text-anchor="middle">Annecy • Massif des Aravis</text>
+                            </g>
+
+                            <!-- Mont-Blanc / Megève / Avoriaz -->
+                            <g transform="translate(565, 135)">
+                                <polygon points="0,-8 2.3,-2.3 8,0 2.3,2.3 0,8 -2.3,2.3 -8,0 -2.3,-2.3" fill="#FACC15" class="star-twinkle"/>
+                                <text x="12" y="-6" fill="#FFFFFF" font-size="12" font-weight="800">Mont-Blanc • Megève</text>
+                                <text x="12" y="9" fill="#9CA3AF" font-size="10" font-weight="600">Avoriaz • Flaine</text>
+                            </g>
+
+                            <!-- Tarentaise / Vanoise -->
+                            <g transform="translate(635, 315)">
+                                <polygon points="0,-8 2.3,-2.3 8,0 2.3,2.3 0,8 -2.3,2.3 -8,0 -2.3,-2.3" fill="#FACC15" class="star-twinkle"/>
+                                <text x="12" y="-8" fill="#FFFFFF" font-size="12" font-weight="800">Courchevel • Méribel</text>
+                                <text x="12" y="7" fill="#D1D5DB" font-size="10" font-weight="600">Val Thorens • Tignes • Val d'Isère</text>
+                                <text x="12" y="20" fill="#9CA3AF" font-size="10" font-weight="600">Les Arcs • La Plagne • Vanoise</text>
+                            </g>
+
+                            <!-- Maurienne / Valloire -->
+                            <g transform="translate(545, 435)">
+                                <polygon points="0,-7 2,-2 7,0 2,2 0,7 -2,2 -7,0 -2,-2" fill="#FACC15" class="star-twinkle"/>
+                                <text x="12" y="2" fill="#FFFFFF" font-size="11" font-weight="700">Valloire • Col du Galibier</text>
+                            </g>
+
+                            <!-- Écrins / Alpe d'Huez / Belledonne -->
+                            <g transform="translate(415, 475)">
+                                <polygon points="0,-7 2,-2 7,0 2,2 0,7 -2,2 -7,0 -2,-2" fill="#FACC15" class="star-twinkle"/>
+                                <text x="0" y="20" fill="#FFFFFF" font-size="11" font-weight="700" text-anchor="middle">Alpe d'Huez • Les Deux Alpes • Écrins</text>
+                            </g>
+
+                            <!-- Point central : CHAMBÉRY -->
+                            <g transform="translate(305, 305)">
+                                <circle r="14" fill="#E03C31" class="pulse-ring"/>
+                                <circle r="9" fill="#E03C31" stroke="#FFFFFF" stroke-width="2.5"/>
+                                <rect x="-56" y="16" width="112" height="24" rx="12" fill="#E03C31"/>
+                                <text x="0" y="32" fill="#FFFFFF" font-size="11" font-weight="900" text-anchor="middle" letter-spacing="0.8">CHAMBÉRY</text>
+                            </g>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section id="realisations" class="py-28 bg-[#F4F4F4]">
         <div class="max-w-7xl mx-auto px-6">
             <div class="text-center max-w-3xl mx-auto mb-20">
@@ -296,24 +516,34 @@
                         La passion du travail bien fait et le respect des règles de l'art
                     </h2>
                     <p class="text-gray-600 mb-6 leading-relaxed text-base">
-                        Au sein de l'<strong>EURL IBO CARRELAGE</strong>, chaque projet est mené avec la rigueur d'un métier transmis et perfectionné sur des centaines de chantiers en Savoie et en altitude. Le respect des supports et l'adaptation aux contraintes thermiques garantissent la pérennité de vos ouvrages.
+                        Au sein de l'<strong>EURL IBO CARRELAGE</strong>, chaque projet est mené avec la rigueur d'un métier perfectionné au fil de plus de <strong>1 500 chantiers réalisés</strong> en Savoie et en station d'altitude. Le respect des supports et l'adaptation aux contraintes thermiques garantissent la pérennité de vos ouvrages.
                     </p>
                     <p class="text-gray-600 mb-8 leading-relaxed text-base">
                         Notre engagement repose sur des matériaux professionnels reconnus (POINT.P, Weber, Mapei, Schlüter-Systems) et une exécution soignée couverte par notre Garantie Décennale.
                     </p>
 
-                    <div class="grid grid-cols-2 gap-6 p-8 rounded-3xl bg-brand-gray border border-brand-border">
+                    <div class="grid grid-cols-2 gap-5 p-7 rounded-3xl bg-brand-gray border border-brand-border">
                         <div>
-                            <div class="text-4xl font-black text-brand-red mb-2">48 Avis</div>
-                            <div class="text-sm font-bold text-brand-dark flex items-center gap-1">
-                                <span class="text-yellow-500 text-lg">★★★★★</span> 5.0 / 5.0
-                            </div>
-                            <div class="text-xs text-gray-500 mt-1">Certifiés sur Google Maps</div>
+                            <div class="text-3xl sm:text-4xl font-black text-brand-red mb-1">1 500+</div>
+                            <div class="text-sm font-bold text-brand-dark">Projets réalisés</div>
+                            <div class="text-xs text-gray-500 mt-0.5">Savoie &amp; stations alpines</div>
                         </div>
                         <div>
-                            <div class="text-4xl font-black text-brand-red mb-2">10+ Ans</div>
+                            <div class="text-3xl sm:text-4xl font-black text-brand-dark mb-1">50+</div>
+                            <div class="text-sm font-bold text-brand-dark">Chantiers en cours</div>
+                            <div class="text-xs text-gray-500 mt-0.5">Activité continue toute l'année</div>
+                        </div>
+                        <div class="pt-4 border-t border-gray-200">
+                            <div class="text-3xl sm:text-4xl font-black text-brand-red mb-1">48 Avis</div>
+                            <div class="text-sm font-bold text-brand-dark flex items-center gap-1">
+                                <span class="text-yellow-500 text-base">★★★★★</span> 5.0 / 5.0
+                            </div>
+                            <div class="text-xs text-gray-500 mt-0.5">Certifiés sur Google Maps</div>
+                        </div>
+                        <div class="pt-4 border-t border-gray-200">
+                            <div class="text-3xl sm:text-4xl font-black text-brand-dark mb-1">10+ Ans</div>
                             <div class="text-sm font-bold text-brand-dark">D'expérience terrain</div>
-                            <div class="text-xs text-gray-500 mt-1">Savoir-faire et précision</div>
+                            <div class="text-xs text-gray-500 mt-0.5">Garantie décennale active</div>
                         </div>
                     </div>
                 </div>
@@ -555,7 +785,7 @@
                 <div>
                     <img src="logo.png" alt="EURL IBO CARRELAGE" class="h-14 w-auto object-contain mb-6 filter brightness-0 invert">
                     <p class="text-gray-400 leading-relaxed text-xs">
-                        EURL IBO CARRELAGE — Maîtres artisans carreleurs en Savoie. Experts en pose de carrelage, chape liquide, mousse projetée, faïence, dalle sur plots (terrasse), douche italienne et coupes à 45°. Garantie décennale active.
+                        EURL IBO CARRELAGE — Maîtres artisans carreleurs en Savoie. Plus de 1 500 projets réalisés. Experts en pose de carrelage, chape liquide, mousse projetée, faïence, dalle sur plots (terrasse), douche italienne et coupes à 45°. Garantie décennale active.
                     </p>
                     <div class="mt-6 flex items-center gap-3">
                         <a href="https://www.instagram.com/ibocarrelage/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2.5 bg-gray-900 border border-gray-700 px-4 py-2.5 rounded-xl text-white hover:border-brand-red hover:text-brand-red transition">
