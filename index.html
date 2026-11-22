@@ -79,10 +79,18 @@
         },
         {
           "@type": "Question",
+          "name": "Combien de temps dure la pose de carrelage d'une salle de bain ?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Grâce à notre organisation maîtrisée, une salle de bain de 20 m² est réalisée en 2,5 jours finitions comprises, et une grande salle de bain de 30 m² en 3 jours (2 jours de pose + 1 jour de finitions), hors travaux lourds de démolition ou d'étanchéité préalable."
+          }
+        },
+        {
+          "@type": "Question",
           "name": "Quelle est votre capacité de chantier pour les constructeurs et architectes ?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Grâce à notre organisation et notre outillage grand format, nous avons la capacité de réaliser et livrer jusqu'à 1 villa complète par semaine avec des finitions irréprochables et des réceptions sans réserve, avec tarifs préférentiels pour les partenaires réguliers."
+            "text": "Grâce à notre organisation et notre outillage grand format, nous avons la capacité de réaliser et livrer jusqu'à 1 villa complète par semaine avec des finitions irréprochables et des réceptions sans réserve, avec tarifs préférentiels pour les partenaires réguliers (passage en EURL dès le 1er janvier 2027)."
           }
         },
         {
@@ -150,11 +158,16 @@
             0% { opacity: 0.55; transform: scale(0.85); }
             100% { opacity: 1; transform: scale(1.2); }
         }
+
+        /* Barre de défilement discrète pour l'assistant */
+        .ibo-scroll::-webkit-scrollbar { width: 5px; height: 5px; }
+        .ibo-scroll::-webkit-scrollbar-track { background: transparent; }
+        .ibo-scroll::-webkit-scrollbar-thumb { background: #D1D5DB; border-radius: 9999px; }
     </style>
 </head>
-<body class="bg-white text-brand-dark antialiased pb-16 md:pb-0">
+<body class="bg-white text-brand-dark antialiased pb-24 md:pb-0">
 
-    <header class="fixed w-full z-50 bg-white/95 backdrop-blur-md border-b border-gray-100 shadow-sm">
+    <header class="fixed w-full z-40 bg-white/95 backdrop-blur-md border-b border-gray-100 shadow-sm">
         <nav class="max-w-7xl mx-auto px-6 h-20 flex justify-between items-center">
             <a href="#" class="flex items-center">
                 <img src="logo.png" alt="IBO CARRELAGE - Site Officiel Chambéry Bassens" class="h-12 w-auto object-contain">
@@ -437,10 +450,10 @@
         <div class="max-w-7xl mx-auto px-6">
             <div class="flex flex-col lg:flex-row lg:items-end justify-between mb-14 pb-6 border-b border-white/10">
                 <div class="max-w-3xl">
-                    <span class="text-brand-red font-bold text-xs uppercase tracking-widest px-3 py-1 bg-white/10 rounded-full border border-white/15 inline-block mb-3">PARTENAIRE ARCHITECTES, CONSTRUCTEURS &amp; PROMOTEURS</span>
+                    <span class="text-brand-red font-bold text-xs uppercase tracking-widest px-3 py-1 bg-white/10 rounded-full border border-white/15 inline-block mb-3">PARTENAIRE ARCHITECTES, CONSTRUCTEURS &amp; PROMOTEURS • 2027</span>
                     <h2 class="text-3xl md:text-5xl font-black tracking-tight mb-3">Exécution irréprochable, cadence élevée &amp; réceptions sans réserve</h2>
                     <p class="text-sm text-gray-400 leading-relaxed">
-                        Vous recherchez un partenaire carreleur fiable sur le long terme en Savoie ? Pour les <strong class="text-white">architectes, maîtres d'œuvre et constructeurs assurant un flux régulier de chantiers</strong>, nous proposons des <strong class="text-brand-red">conditions tarifaires préférentielles</strong> avec une capacité de production allant jusqu'à <strong class="text-white">1 villa complète livrée par semaine</strong>.
+                        Vous préparez vos chantiers <strong class="text-white">2027</strong> en Savoie ? Pour accompagner durablement les <strong class="text-white">architectes, maîtres d'œuvre et constructeurs assurant un flux régulier</strong>, notre structure évolue en <strong class="text-yellow-400">EURL dès le 1er janvier 2027</strong> avec une capacité de production allant jusqu'à <strong class="text-white">1 villa complète livrée par semaine</strong> et des <strong class="text-brand-red">tarifs partenaires préférentiels</strong>.
                     </p>
                 </div>
                 <a href="#contact" class="mt-4 lg:mt-0 inline-flex items-center gap-2 bg-brand-red text-white px-6 py-4 rounded-xl font-black text-sm hover:bg-red-700 transition whitespace-nowrap">
@@ -466,10 +479,10 @@
                 </div>
 
                 <div class="p-7 rounded-2xl bg-white/5 border border-white/10">
-                    <div class="text-brand-red font-black text-xs uppercase tracking-widest mb-2">ACCORD PARTENAIRE B2B</div>
+                    <div class="text-brand-red font-black text-xs uppercase tracking-widest mb-2">STRUCTURE EURL 2027</div>
                     <h3 class="text-lg font-bold mb-3">Tarifs Pro Flux Régulier</h3>
                     <p class="text-xs text-gray-400 leading-relaxed">
-                        En échange d'un volume régulier de chantiers annuels (maisons individuelles, chalets, petits collectifs), nous appliquons une <strong>grille tarifaire partenaire compétitive</strong> et bloquons des créneaux prioritaires.
+                        Passage en <strong>EURL au 1er janvier 2027</strong> pour soutenir nos partenaires B2B : grille tarifaire compétitive, créneaux prioritaires réservés et attestation <strong>Garantie Décennale</strong> à jour.
                     </p>
                 </div>
 
@@ -477,7 +490,7 @@
                     <div class="text-brand-red font-black text-xs uppercase tracking-widest mb-2">LOT COMPLET &amp; XXL</div>
                     <h3 class="text-lg font-bold mb-3">Chape + Dalles 120×280 cm</h3>
                     <p class="text-xs text-gray-400 leading-relaxed">
-                        Un seul interlocuteur technique pour la mousse projetée, la chape liquide, le carrelage XXL (ventouses, rails grand format), les profilés <strong>Schlüter-Systems</strong> et attestation <strong>Décennale</strong> à jour.
+                        Un seul interlocuteur technique pour la mousse projetée, la chape liquide, le carrelage XXL (ventouses, rails grand format) et les profilés <strong>Schlüter-Systems</strong>.
                     </p>
                 </div>
             </div>
@@ -1005,11 +1018,21 @@
 
                 <details class="group bg-white rounded-2xl border border-gray-200 p-6 shadow-sm">
                     <summary class="flex justify-between items-center font-extrabold text-brand-dark cursor-pointer list-none text-base">
+                        <span>Combien de temps dure la pose d'une salle de bain et le chantier reste-t-il propre ?</span>
+                        <span class="text-brand-red text-xl font-black group-open:rotate-45 transition">+</span>
+                    </summary>
+                    <p class="text-gray-600 text-sm leading-relaxed mt-4 pt-4 border-t border-gray-100">
+                        Grâce à notre organisation maîtrisée, une salle de bain de <strong>20 m² est réalisée en 2,5 jours finitions comprises</strong>, et une grande salle de bain de <strong>30 m² en 3 jours</strong> (2 jours de pose + 1 jour de finitions), hors travaux lourds de démolition ou d'étanchéité préalable. Les zones de passage sont systématiquement protégées et le chantier est laissé propre chaque soir.
+                    </p>
+                </details>
+
+                <details class="group bg-white rounded-2xl border border-gray-200 p-6 shadow-sm">
+                    <summary class="flex justify-between items-center font-extrabold text-brand-dark cursor-pointer list-none text-base">
                         <span>Quelle est votre capacité pour les architectes et constructeurs ?</span>
                         <span class="text-brand-red text-xl font-black group-open:rotate-45 transition">+</span>
                     </summary>
                     <p class="text-gray-600 text-sm leading-relaxed mt-4 pt-4 border-t border-gray-100">
-                        Nous pouvons réaliser et livrer jusqu'à <strong>1 villa complète par semaine</strong> avec des finitions irréprochables et des réceptions sans réserve. Pour les partenaires assurant un flux régulier de chantiers, nous accordons des tarifs préférentiels dédiés.
+                        Nous pouvons réaliser et livrer jusqu'à <strong>1 villa complète par semaine</strong> avec des finitions irréprochables et des réceptions sans réserve. Avec le passage de notre structure en <strong>EURL dès le 1er janvier 2027</strong>, nous accordons des tarifs préférentiels dédiés aux partenaires assurant un flux régulier de chantiers.
                     </p>
                 </details>
 
@@ -1274,7 +1297,9 @@
                             </button>
                         </div>
 
-                        <p class="text-center text-xs text-gray-500">Contact direct sans intermédiaire • Vos informations restent strictement confidentielles.</p>
+                        <p class="text-center text-xs text-gray-600 font-medium">
+                            📎 <strong>Architectes &amp; Pros :</strong> Vous pourrez joindre vos plans PDF, CCTP ou DPGF directement dans votre messagerie (Email ou WhatsApp) dès l'ouverture de l'envoi.
+                        </p>
                     </form>
                 </div>
             </div>
@@ -1383,6 +1408,70 @@
         </a>
     </div>
 
+    <!-- ===================================================================== -->
+    <!-- ASSISTANT DIGITAL IBO CARRELAGE (NON-INTRUSIF, DISPONIBLE SUR CLIC)  -->
+    <!-- ===================================================================== -->
+    <div id="ibo-assistant-launcher" class="fixed bottom-16 right-3 md:bottom-6 md:right-6 z-50">
+        <button type="button" onclick="ouvrirAssistantIBO()" aria-label="Ouvrir l'Assistant IBO CARRELAGE" class="group flex items-center gap-2.5 bg-[#111111] hover:bg-brand-red text-white pl-3.5 pr-4 py-3 rounded-full shadow-2xl border border-white/20 transition cursor-pointer">
+            <span class="relative flex h-2.5 w-2.5">
+                <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+                <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-green-400"></span>
+            </span>
+            <span class="text-xs font-extrabold tracking-wide">Besoin d'aide ? <span class="text-yellow-400 group-hover:text-white">Assistant IBO</span></span>
+        </button>
+    </div>
+
+    <div id="ibo-assistant-box" class="hidden fixed bottom-16 right-3 left-3 sm:left-auto sm:right-6 md:bottom-6 sm:w-[400px] max-h-[76vh] bg-white text-brand-dark rounded-3xl shadow-2xl border border-gray-200 z-50 flex flex-col overflow-hidden">
+        <!-- En-tête Assistant -->
+        <div class="bg-[#111111] text-white px-5 py-4 flex items-center justify-between border-b border-white/10">
+            <div class="flex items-center gap-3">
+                <div class="w-9 h-9 rounded-xl bg-brand-red flex items-center justify-center font-black text-xs tracking-tighter">IBO</div>
+                <div>
+                    <div class="text-sm font-black leading-tight">Assistant IBO CARRELAGE</div>
+                    <div class="text-[11px] text-green-400 font-semibold flex items-center gap-1.5">
+                        <span class="w-1.5 h-1.5 rounded-full bg-green-400"></span>
+                        <span>En ligne • Conseiller virtuel 24h/24</span>
+                    </div>
+                </div>
+            </div>
+            <button type="button" onclick="fermerAssistantIBO()" aria-label="Fermer l'assistant" class="w-8 h-8 rounded-full bg-white/10 hover:bg-brand-red text-white font-black text-xs flex items-center justify-center transition cursor-pointer">✕</button>
+        </div>
+
+        <!-- Zone de discussion -->
+        <div id="ibo-chat-messages" class="ibo-scroll flex-1 overflow-y-auto p-4 space-y-3 bg-[#F8F9FA] text-xs leading-relaxed">
+            <div class="bg-white border border-gray-200 rounded-2xl rounded-tl-sm p-3.5 shadow-sm text-gray-800">
+                <p class="font-bold text-brand-dark mb-1">Bonjour 👋 Bienvenue chez IBO CARRELAGE !</p>
+                <p>Je suis l'assistant virtuel d'<strong>Ibrahim GUNES</strong> (Bassens - Chambéry). Cliquez sur un sujet ci-dessous ou posez-moi directement votre question sur votre projet :</p>
+            </div>
+        </div>
+
+        <!-- Boutons de réponses rapides (9 thèmes complets) -->
+        <div class="px-3 py-2.5 bg-white border-t border-gray-100">
+            <div class="ibo-scroll flex gap-1.5 overflow-x-auto pb-1">
+                <button type="button" onclick="poserQuestionRapide('pourquoi')" class="flex-shrink-0 bg-red-50 hover:bg-brand-red hover:text-white text-brand-red border border-red-200 font-extrabold text-[11px] px-3 py-1.5 rounded-full transition cursor-pointer">⭐ Pourquoi choisir IBO ?</button>
+                <button type="button" onclick="poserQuestionRapide('delais')" class="flex-shrink-0 bg-gray-100 hover:bg-brand-dark hover:text-white text-brand-dark font-bold text-[11px] px-3 py-1.5 rounded-full transition cursor-pointer">⏱️ Délais (SDB / Villa)</button>
+                <button type="button" onclick="poserQuestionRapide('tarifs')" class="flex-shrink-0 bg-gray-100 hover:bg-brand-dark hover:text-white text-brand-dark font-bold text-[11px] px-3 py-1.5 rounded-full transition cursor-pointer">💶 Tarifs &amp; Devis</button>
+                <button type="button" onclick="poserQuestionRapide('vente')" class="flex-shrink-0 bg-gray-100 hover:bg-brand-dark hover:text-white text-brand-dark font-bold text-[11px] px-3 py-1.5 rounded-full transition cursor-pointer">🛒 Vente Carrelage</button>
+                <button type="button" onclick="poserQuestionRapide('xxl45')" class="flex-shrink-0 bg-gray-100 hover:bg-brand-dark hover:text-white text-brand-dark font-bold text-[11px] px-3 py-1.5 rounded-full transition cursor-pointer">📐 XXL &amp; Coupe 45°</button>
+                <button type="button" onclick="poserQuestionRapide('chape')" class="flex-shrink-0 bg-gray-100 hover:bg-brand-dark hover:text-white text-brand-dark font-bold text-[11px] px-3 py-1.5 rounded-full transition cursor-pointer">🔥 Chape &amp; Mousse</button>
+                <button type="button" onclick="poserQuestionRapide('terrasse')" class="flex-shrink-0 bg-gray-100 hover:bg-brand-dark hover:text-white text-brand-dark font-bold text-[11px] px-3 py-1.5 rounded-full transition cursor-pointer">🌿 Terrasse &amp; Plots</button>
+                <button type="button" onclick="poserQuestionRapide('pro')" class="flex-shrink-0 bg-gray-100 hover:bg-brand-dark hover:text-white text-brand-dark font-bold text-[11px] px-3 py-1.5 rounded-full transition cursor-pointer">🏗️ Architectes &amp; 2027</button>
+                <button type="button" onclick="poserQuestionRapide('garantie')" class="flex-shrink-0 bg-gray-100 hover:bg-brand-dark hover:text-white text-brand-dark font-bold text-[11px] px-3 py-1.5 rounded-full transition cursor-pointer">🛡️ Décennale &amp; Zone</button>
+            </div>
+        </div>
+
+        <!-- Champ de saisie + Transfert WhatsApp -->
+        <div class="p-3 bg-white border-t border-gray-200 space-y-2">
+            <form onsubmit="envoyerMessageAssistant(event)" class="flex gap-2">
+                <input type="text" id="ibo-chat-input" placeholder="Écrivez votre question (ex: SDB 25m², tarifs...)" class="flex-1 bg-gray-100 border border-gray-200 rounded-xl px-3.5 py-2.5 text-xs focus:outline-none focus:border-brand-red">
+                <button type="submit" class="bg-brand-dark hover:bg-brand-red text-white font-black text-xs px-4 py-2.5 rounded-xl transition cursor-pointer">Envoyer</button>
+            </form>
+            <button type="button" onclick="transfererChatWhatsApp()" class="w-full bg-[#25D366] hover:bg-green-600 text-white font-black text-[11px] py-2.5 rounded-xl transition flex items-center justify-center gap-1.5 cursor-pointer">
+                <span>📲 Transférer ma demande à Ibrahim sur WhatsApp</span>
+            </button>
+        </div>
+    </div>
+
     <!-- FENÊTRE MENTIONS LÉGALES -->
     <div id="modal-mentions" class="hidden fixed inset-0 z-50 bg-black/80 backdrop-blur-sm flex items-center justify-center p-4">
         <div class="bg-white text-brand-dark max-w-lg w-full rounded-3xl p-8 relative shadow-2xl">
@@ -1400,7 +1489,7 @@
         </div>
     </div>
 
-    <!-- SCRIPT D'ENVOI DIRECT WHATSAPP + EMAIL -->
+    <!-- SCRIPTS : FORMULAIRE + ASSISTANT INTELLIGENT IBO CARRELAGE -->
     <script>
         function recupererDonneesFormulaire() {
             var profil = document.querySelector('input[name="profil_client"]:checked').value;
@@ -1443,6 +1532,208 @@
             var sujet = encodeURIComponent("Demande de devis (" + profil + ") - " + lieu + " (" + surface + ")");
             var corps = encodeURIComponent(recupererDonneesFormulaire());
             window.location.href = "mailto:Ibocarrelage73@gmail.com?subject=" + sujet + "&body=" + corps;
+        }
+
+        /* ============================================================== */
+        /* LOGIQUE DE L'ASSISTANT VIRTUEL IBO CARRELAGE                   */
+        /* ============================================================== */
+        var historiqueQuestionsClient = [];
+
+        function ouvrirAssistantIBO() {
+            document.getElementById('ibo-assistant-launcher').classList.add('hidden');
+            document.getElementById('ibo-assistant-box').classList.remove('hidden');
+        }
+
+        function fermerAssistantIBO() {
+            document.getElementById('ibo-assistant-box').classList.add('hidden');
+            document.getElementById('ibo-assistant-launcher').classList.remove('hidden');
+        }
+
+        function normaliserTexte(str) {
+            return str.toLowerCase()
+                .normalize("NFD")
+                .replace(/[\u0300-\u036f]/g, "")
+                .replace(/[^a-z0-9\s]/g, " ")
+                .replace(/\s+/g, " ")
+                .trim();
+        }
+
+        function ajouterBulleMessage(htmlContent, estClient) {
+            var container = document.getElementById('ibo-chat-messages');
+            var wrapper = document.createElement('div');
+            if (estClient) {
+                wrapper.className = "flex justify-end";
+                wrapper.innerHTML = '<div class="bg-[#111111] text-white rounded-2xl rounded-tr-sm px-3.5 py-2.5 max-w-[85%] shadow-sm">' + htmlContent + '</div>';
+            } else {
+                wrapper.className = "flex justify-start";
+                wrapper.innerHTML = '<div class="bg-white border border-gray-200 text-gray-800 rounded-2xl rounded-tl-sm p-3.5 max-w-[92%] shadow-sm space-y-1.5">' + htmlContent + '</div>';
+            }
+            container.appendChild(wrapper);
+            container.scrollTop = container.scrollHeight;
+        }
+
+        var reponsesBase = {
+            pourquoi:
+                "<p class='font-black text-brand-red'>Ce qui nous distingue des autres entreprises :</p>" +
+                "<p>• <strong>Expérience prouvée :</strong> Plus de <strong>1 500 projets réalisés</strong> et une note parfaite de <strong>5,0/5 sur Google (48 avis vérifiés)</strong>.</p>" +
+                "<p>• <strong>Rapidité sans compromis :</strong> Une salle de bain de <strong>20 m² est posée et finie en 2,5 jours</strong> (30 m² en 3 jours), et nous livrons jusqu'à <strong>1 villa complète par semaine</strong>.</p>" +
+                "<p>• <strong>Finitions chirurgicales :</strong> Coupes à 45° polies à la main, double encollage systématique avec colles pro <strong>Cermix &amp; Schlüter-Systems</strong>, et chantier rendu propre chaque soir.</p>" +
+                "<p>• <strong>Sérénité totale :</strong> Interlocuteur unique (Ibrahim GUNES), <strong>Garantie Décennale active</strong> et réceptions sans réserve.</p>",
+
+            delais:
+                "<p class='font-black text-brand-dark'>⏱️ Nos délais d'intervention &amp; cadence :</p>" +
+                "<p>• <strong>Salle de bain 20 m² :</strong> Réalisée en <strong>2 jours et demi</strong> finitions comprises.</p>" +
+                "<p>• <strong>Grande salle de bain 30 m² :</strong> Réalisée en <strong>3 jours</strong> (2 jours de pose + 1 jour de finitions), hors démolition lourde ou étanchéité préalable.</p>" +
+                "<p>• <strong>Villa complète / Construction neuve :</strong> Capacité de livraison allant jusqu'à <strong>1 villa complète par semaine</strong>.</p>" +
+                "<p>• <strong>Devis gratuit :</strong> Chiffrage détaillé garanti sous <strong>24h à 48h</strong>.</p>",
+
+            tarifs:
+                "<p class='font-black text-brand-dark'>💶 Tarifs &amp; Devis Gratuit sous 48h :</p>" +
+                "<p>Chaque chantier dépend du format des carreaux (60×60, 120×120, XXL), de l'état du support et des finitions (coupes à 45°, douche italienne).</p>" +
+                "<p>• <strong>2 formules au choix :</strong> <strong>Fourniture + Pose</strong> (avec nos remises pros POINT.P / SAMSE / Décocéram) ou <strong>Pose seule</strong> de vos carreaux déjà achetés.</p>" +
+                "<p>• <strong>Partenaires Pros :</strong> Grille tarifaire préférentielle pour les architectes et constructeurs assurant un flux régulier.</p>" +
+                "<p class='text-brand-red font-bold'>Indiquez-moi votre surface (m²) et votre ville pour un chiffrage rapide !</p>",
+
+            vente:
+                "<p class='font-black text-brand-dark'>🛒 Vente de Carrelage &amp; Accès Showrooms Pro :</p>" +
+                "<p>Vous n'avez pas encore vos carreaux ? Visitez librement les showrooms de nos partenaires à Chambéry (<strong>POINT.P L'Érier / Landiers, SAMSE, Décocéram</strong>), notez les références qui vous plaisent et <strong>nous commandons pour vous à nos tarifs professionnels</strong> avec livraison directe sur chantier.</p>" +
+                "<p>Nous gérons le calcul exact des pertes de coupe, les colles Cermix et les profilés Schlüter-Systems.</p>",
+
+            xxl45:
+                "<p class='font-black text-brand-dark'>📐 Spécialiste Grands Formats XXL &amp; Coupes à 45° :</p>" +
+                "<p>• <strong>Dalles XXL :</strong> Pose maîtrisée du 60×60 jusqu'au <strong>120×120 et 120×280 cm</strong> (rails de coupe, ventouses professionnelles, double encollage intégral).</p>" +
+                "<p>• <strong>Onglets à 45° :</strong> Façonnage manuel et polissage des arêtes sur encadrements de fenêtres, niches de douche, banquettes et bâti-supports WC pour éviter les baguettes plastiques disgracieuses.</p>",
+
+            chape:
+                "<p class='font-black text-brand-dark'>🔥 Chape Liquide &amp; Mousse Polyuréthane Projetée :</p>" +
+                "<p>Nous réalisons le lot complet de préparation de sol : isolation thermique et acoustique par <strong>mousse polyuréthane projetée</strong> + coulage de <strong>chape liquide fluide</strong> (anhydrite ou ciment), idéale sur plancher chauffant hydraulique ou électrique.</p>" +
+                "<p>Circulation piétonne dès 24h à 48h et contrôle rigoureux de l'humidité avant pose du carrelage (DTU 26.2 / 52.2).</p>",
+
+            terrasse:
+                "<p class='font-black text-brand-dark'>🌿 Terrasse, Piscine &amp; Dalle sur Plots :</p>" +
+                "<p>Pose de dalles extérieures antidérapantes <strong>R11 forte épaisseur (20 mm)</strong> sur plots réglables ou pose collée sur dalle béton.</p>" +
+                "<p>Parfaite résistance au gel alpin, drainage maîtrisé et découpes sur mesure (arrondis, margelles de piscine, escaliers extérieurs).</p>",
+
+            pro:
+                "<p class='font-black text-brand-dark'>🏗️ Partenaire Architectes, Maîtres d'Œuvre &amp; Constructeurs (2027) :</p>" +
+                "<p>• <strong>Évolution EURL 2027 :</strong> Passage en société <strong>EURL dès le 1er janvier 2027</strong> pour accompagner vos programmes réguliers.</p>" +
+                "<p>• <strong>Capacité :</strong> Jusqu'à <strong>1 villa complète livrée par semaine</strong> avec <strong>réceptions sans réserve</strong>.</p>" +
+                "<p>• <strong>Avantage B2B :</strong> Tarifs partenaires préférentiels sur flux régulier et chiffrage sur plans / CCTP / DPGF sous 48h.</p>",
+
+            garantie:
+                "<p class='font-black text-brand-dark'>🛡️ Garantie Décennale &amp; Zone d'Intervention (150 km) :</p>" +
+                "<p>• <strong>Assurance :</strong> Responsabilité Civile Professionnelle et <strong>Garantie Décennale active</strong> (attestation fournie avec chaque devis).</p>" +
+                "<p>• <strong>Secteur :</strong> Basés au <strong>243 Rue de Gonrat, 73000 Bassens - Chambéry</strong>, nous intervenons dans un rayon de <strong>150 km</strong> : Chambéry, Aix-les-Bains, Annecy, Albertville, Grenoble, Courchevel, Méribel, Val Thorens, Tignes, Val d'Isère, Megève et Valloire.</p>"
+        };
+
+        var libellesRapides = {
+            pourquoi: "⭐ Pourquoi choisir IBO CARRELAGE ?",
+            delais: "⏱️ Quels sont vos délais (salle de bain / villa) ?",
+            tarifs: "💶 Comment fonctionnent vos tarifs et devis ?",
+            vente: "🛒 Vendez-vous aussi le carrelage ?",
+            xxl45: "📐 Faites-vous les grands formats XXL et coupes à 45° ?",
+            chape: "🔥 Réalisez-vous la chape liquide et la mousse projetée ?",
+            terrasse: "🌿 Posez-vous les terrasses et dalles sur plots ?",
+            pro: "🏗️ Travaillez-vous avec les architectes et constructeurs ?",
+            garantie: "🛡️ Avez-vous la garantie décennale et quelle est votre zone ?"
+        };
+
+        function poserQuestionRapide(cle) {
+            var questionTexte = libellesRapides[cle];
+            historiqueQuestionsClient.push(questionTexte);
+            ajouterBulleMessage(questionTexte, true);
+            setTimeout(function() {
+                ajouterBulleMessage(reponsesBase[cle], false);
+            }, 220);
+        }
+
+        function genererReponseIntelligente(messageBrut) {
+            var txt = normaliserTexte(messageBrut);
+
+            // Détection d'une surface en m² tapée par le client
+            var matchSurface = txt.match(/(\d+)\s*(m2|m\s*2|metres|metre)/);
+            var noteSurface = "";
+            if (matchSurface) {
+                var surf = parseInt(matchSurface[1], 10);
+                if (surf <= 22) {
+                    noteSurface = "<p class='bg-red-50 border border-red-200 rounded-xl p-2.5 text-brand-dark'><strong>Estimation pour " + surf + " m² :</strong> Comptez environ <strong>2,5 jours</strong> finitions comprises pour une salle de bain (ou 1 à 2 jours pour un sol simple).</p>";
+                } else if (surf <= 35) {
+                    noteSurface = "<p class='bg-red-50 border border-red-200 rounded-xl p-2.5 text-brand-dark'><strong>Estimation pour " + surf + " m² :</strong> Comptez environ <strong>3 jours</strong> (2 jours de pose + 1 jour de finitions) pour une salle de bain complète.</p>";
+                } else {
+                    noteSurface = "<p class='bg-red-50 border border-red-200 rounded-xl p-2.5 text-brand-dark'><strong>Estimation pour " + surf + " m² :</strong> Grâce à notre cadence de <strong>1 villa complète par semaine</strong>, nous intervenons rapidement avec un planning garanti.</p>";
+                }
+            }
+
+            if (/(pourquoi|distingue|difference|meilleur|avantage|choisir|confiance|avis|serieux|qualite)/.test(txt)) {
+                return noteSurface + reponsesBase.pourquoi;
+            }
+            if (/(delai|temps|jour|semaine|rapide|duree|planning|quand|disponibilite)/.test(txt)) {
+                return noteSurface + reponsesBase.delais;
+            }
+            if (/(architecte|constructeur|maitre d oeuvre|partenaire|sous traitant|2027|eurl|cctp|dpgf|pro\b)/.test(txt)) {
+                return noteSurface + reponsesBase.pro;
+            }
+            if (/(vente|acheter|fourniture|point p|samse|decoceram|showroom|catalogue|magasin)/.test(txt)) {
+                return noteSurface + reponsesBase.vente;
+            }
+            if (/(chape|liquide|mousse|projetee|isolation|plancher chauffant|chauffage|ragreage)/.test(txt)) {
+                return noteSurface + reponsesBase.chape;
+            }
+            if (/(terrasse|piscine|plot|exterieur|balcon|gel|20mm|20 mm|r11)/.test(txt)) {
+                return noteSurface + reponsesBase.terrasse;
+            }
+            if (/(xxl|grand format|120|280|45|onglet|coupe|biseau|niche|douche|italienne|caniveau|etancheite|spec|baignoire)/.test(txt)) {
+                return noteSurface + reponsesBase.xxl45;
+            }
+            if (/(ancien|renovation|sur carrelage|recouvrir|demolition|propre|poussiere)/.test(txt)) {
+                return noteSurface +
+                    "<p class='font-black text-brand-dark'>🔄 Rénovation &amp; Pose sur ancien carrelage :</p>" +
+                    "<p>Oui, nous posons sur ancien carrelage sain après sondage, dégraissage, primaire d'accrochage spécial supports fermés et colle déformable <strong>C2S1 (Cermix Pro S)</strong> conforme au DTU 52.2. Les accès sont protégés et le chantier est nettoyé chaque soir.</p>";
+            }
+            if (/(decennale|assurance|garantie|siret|zone|chambery|bassens|annecy|courchevel|meribel|aix|grenoble|albertville|km)/.test(txt)) {
+                return noteSurface + reponsesBase.garantie;
+            }
+            if (/(prix|tarif|combien|cout|budget|devis|gratuit)/.test(txt)) {
+                return noteSurface + reponsesBase.tarifs;
+            }
+            if (/(bonjour|salut|bonsoir|hello|coucou)/.test(txt)) {
+                return noteSurface +
+                    "<p>Bonjour ! Je suis ravi de vous renseigner pour votre projet de carrelage ou de chape liquide en Savoie. Vous pouvez cliquer sur un thème ci-dessus ou m'indiquer votre <strong>ville</strong> et votre <strong>surface en m²</strong>.</p>";
+            }
+            if (/(merci|parfait|super|top|nickel|ok)/.test(txt)) {
+                return noteSurface +
+                    "<p>Avec grand plaisir ! Si vous souhaitez recevoir votre <strong>devis gratuit sous 48h</strong>, cliquez sur le bouton vert ci-dessous pour transférer directement votre demande à <strong>Ibrahim (07 60 50 11 10)</strong> sur WhatsApp.</p>";
+            }
+
+            return noteSurface +
+                "<p>Merci pour votre message ! Pour vous donner une réponse précise et chiffrée sous 48h, <strong>Ibrahim GUNES</strong> étudie directement votre demande (fourniture + pose ou pose seule, formats XXL, chape liquide ou terrasse).</p>" +
+                "<p>Vous pouvez soit cliquer sur l'un des thèmes ci-dessous, soit appuyer sur le bouton vert <strong>Transférer ma demande sur WhatsApp</strong> pour échanger en direct avec l'artisan au <strong>07 60 50 11 10</strong>.</p>";
+        }
+
+        function envoyerMessageAssistant(e) {
+            e.preventDefault();
+            var input = document.getElementById('ibo-chat-input');
+            var texte = input.value.trim();
+            if (!texte) return;
+
+            historiqueQuestionsClient.push(texte);
+            ajouterBulleMessage(texte.replace(/</g, "&lt;").replace(/>/g, "&gt;"), true);
+            input.value = "";
+
+            var reponseHTML = genererReponseIntelligente(texte);
+            setTimeout(function() {
+                ajouterBulleMessage(reponseHTML, false);
+            }, 250);
+        }
+
+        function transfererChatWhatsApp() {
+            var resume = "Bonjour IBO CARRELAGE, je viens de votre site officiel www.ibocarrelage.com";
+            if (historiqueQuestionsClient.length > 0) {
+                resume += ".\n\nMes questions / détails :\n- " + historiqueQuestionsClient.join("\n- ");
+            } else {
+                resume += " et je souhaite un devis gratuit pour mon projet.";
+            }
+            window.open("https://wa.me/33760501110?text=" + encodeURIComponent(resume), "_blank");
         }
     </script>
 
