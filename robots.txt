@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Botlara site haritasının yerini bildir
+Sitemap: https://www.ibocarrelage.com/sitemap.xml
