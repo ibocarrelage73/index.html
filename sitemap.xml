@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://www.ibocarrelage.com/</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://www.ibocarrelage.com/photos/salle-de-bain-coupe-45-fenetre-banquette-terrazzo-chambery.webp</image:loc>
+      <image:title>Carrelage salle de bain coupe à 45 degrés Chambéry - IBO CARRELAGE</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.ibocarrelage.com/photos/coulage-chape-liquide-plancher-chauffant-chambery-annecy.webp.jpg</image:loc>
+      <image:title>Coulage chape liquide plancher chauffant Chambéry Annecy Savoie</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.ibocarrelage.com/photos/mousse-polyurethane-projetee-isolation-sol-chambery-savoie.webp.jpg</image:loc>
+      <image:title>Mousse polyuréthane projetée isolation thermique Chambéry Savoie</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.ibocarrelage.com/chape-liquide-mousse-projetee-savoie.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.ibocarrelage.com/carrelage-grand-format-coupe-45-chambery.html</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+</urlset>
