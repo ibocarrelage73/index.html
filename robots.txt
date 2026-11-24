@@ -1,5 +1,24 @@
 User-agent: *
 Allow: /
 
-# Botlara site haritasının yerini bildir
+# Yapay Zeka Arama Motorları (GEO / AI Search)
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
 Sitemap: https://www.ibocarrelage.com/sitemap.xml
+# AI Context File: https://www.ibocarrelage.com/llms.txt
